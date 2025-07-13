@@ -22,6 +22,7 @@ API Integration
 Data Visualization Dashboard
 
 1. API Integration:
+
 The first step is to connect to a public API to extract data. We chose OpenWeatherMap, which provides access to a wide range of weather data including temperature, humidity, wind speed, and weather conditions for any location around the globe.
 
 We created a free account on OpenWeatherMap and generated a unique API key, which is essential for authentication. Using the requests library in Python, we made HTTP GET requests to the OpenWeatherMap Current Weather Data API, fetching live temperature data for multiple major Indian cities such as Chennai, Delhi, Mumbai, Kolkata, and Bangalore.
@@ -29,6 +30,7 @@ We created a free account on OpenWeatherMap and generated a unique API key, whic
 The response from the API is in JSON format, which we parsed to extract specific fields like city name and current temperature. These values were then stored in a list of dictionaries to be passed into the visualization section of the script.
 
 2. Data Visualization:
+
 After collecting the temperature data, the next step was to visualize it using Seaborn and Matplotlib. A bar chart was chosen to display the temperature readings for the selected cities, providing a clear and comparative view of the current weather conditions.
 
 The cities were plotted on the X-axis, while their respective temperatures (in Celsius) were plotted on the Y-axis. A coolwarm color palette was used to enhance the visual appeal and make temperature differences easier to distinguish.
@@ -36,6 +38,7 @@ The cities were plotted on the X-axis, while their respective temperatures (in C
 The chart was customized with a title ("Current Temperature in Major Indian Cities"), axis labels, and proper layout formatting to ensure clarity. The project was executed using IDLE, Python's default development environment, and successfully displayed the temperature data both as printed text in the shell and as a visual bar chart.
 
 3.Technologies Used:
+
 Python 3
 
 OpenWeatherMap API
@@ -49,6 +52,7 @@ Seaborn
 IDLE (Python IDE)
 
 4.Deliverables:
+
 A Python script (weather_project.py) that:
 
 Connects to the OpenWeatherMap API
@@ -60,4 +64,9 @@ Plots the data using Seaborn/Matplotlib
 A real-time visual dashboard (bar chart) displaying the weather data
 
 5.Learning Outcome:
+
 This task provided hands-on experience in working with APIs, handling JSON data, and using Python for real-world data visualization. It enhanced our understanding of how to integrate external data sources into Python applications and visualize the output for better insights — a key skill in both Data Science and Software Development domains.
+
+#OUTPUT:
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/44545543-6fa9-4e88-8352-cff8eec7424f" />
